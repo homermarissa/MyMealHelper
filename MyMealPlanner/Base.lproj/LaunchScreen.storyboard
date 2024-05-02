@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,15 +12,64 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCR-Ks-Vqu">
+                                <rect key="frame" x="109" y="177" width="175" height="61"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2588235438" green="0.56078433989999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="-3" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MyJ-Yc-pG2">
+                                <rect key="frame" x="109" y="246" width="166" height="61"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2588235438" green="0.56078433989999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="-3" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planner" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vPk-d5-nEy">
+                                <rect key="frame" x="62" y="315" width="260" height="61"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="60"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.2588235438" green="0.56078433989999998" blue="0.47450977560000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <size key="shadowOffset" width="-3" height="1"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myMealPlannerLaunchScreenImage" translatesAutoresizingMaskIntoConstraints="NO" id="n3q-V2-6CZ">
+                                <rect key="frame" x="0.0" y="384" width="393" height="151"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="151" id="vsz-j7-0yZ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.6549019814" green="0.96078431610000004" blue="0.64313727620000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="WCR-Ks-Vqu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="109" id="0mB-yh-MlD"/>
+                            <constraint firstItem="WCR-Ks-Vqu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="118" id="140-vp-RSJ"/>
+                            <constraint firstItem="WCR-Ks-Vqu" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MyJ-Yc-pG2" secondAttribute="trailing" id="39h-iz-B4S"/>
+                            <constraint firstItem="WCR-Ks-Vqu" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="MyJ-Yc-pG2" secondAttribute="leading" id="CDk-3a-Zkw"/>
+                            <constraint firstItem="MyJ-Yc-pG2" firstAttribute="top" secondItem="WCR-Ks-Vqu" secondAttribute="bottom" constant="8" id="Fi3-Mj-riS"/>
+                            <constraint firstItem="n3q-V2-6CZ" firstAttribute="top" secondItem="vPk-d5-nEy" secondAttribute="bottom" constant="8" id="Fui-wl-LQc"/>
+                            <constraint firstItem="MyJ-Yc-pG2" firstAttribute="centerX" secondItem="vPk-d5-nEy" secondAttribute="centerX" id="QZL-Pu-1uf"/>
+                            <constraint firstItem="n3q-V2-6CZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Sal-XO-yoI"/>
+                            <constraint firstItem="WCR-Ks-Vqu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TPm-ti-IUT"/>
+                            <constraint firstItem="n3q-V2-6CZ" firstAttribute="centerX" secondItem="WCR-Ks-Vqu" secondAttribute="centerX" id="WOd-ik-iGm"/>
+                            <constraint firstItem="vPk-d5-nEy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="62" id="Xmu-vO-aas"/>
+                            <constraint firstItem="vPk-d5-nEy" firstAttribute="top" secondItem="MyJ-Yc-pG2" secondAttribute="bottom" constant="8" id="u15-MC-BtE"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="myMealPlannerLaunchScreenImage" width="398" height="162"/>
+    </resources>
 </document>

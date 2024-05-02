@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660E27412B7416580073AF9C /* CustomMenu2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660E27402B7416580073AF9C /* CustomMenu2ViewController.swift */; };
+		662764AF2BBDDE3B009F2978 /* Shrikhand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 662764AE2BBDDE3B009F2978 /* Shrikhand-Regular.ttf */; };
+		662764B32BBE2A6B009F2978 /* CustomMenu3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662764B22BBE2A6B009F2978 /* CustomMenu3ViewController.swift */; };
+		662764B62BBE3DF1009F2978 /* Meal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662764B42BBE3DF0009F2978 /* Meal+CoreDataClass.swift */; };
+		662764B72BBE3DF1009F2978 /* Meal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662764B52BBE3DF0009F2978 /* Meal+CoreDataProperties.swift */; };
 		665234FA2B6BE62E00A46221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665234F92B6BE62E00A46221 /* AppDelegate.swift */; };
 		665234FC2B6BE62E00A46221 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665234FB2B6BE62E00A46221 /* SceneDelegate.swift */; };
 		665234FE2B6BE62E00A46221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665234FD2B6BE62E00A46221 /* ViewController.swift */; };
@@ -14,9 +19,17 @@
 		665235042B6BE62E00A46221 /* MyMealPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 665235022B6BE62E00A46221 /* MyMealPlanner.xcdatamodeld */; };
 		665235062B6BE62F00A46221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665235052B6BE62F00A46221 /* Assets.xcassets */; };
 		665235092B6BE62F00A46221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665235072B6BE62F00A46221 /* LaunchScreen.storyboard */; };
+		665235152B6BF2FA00A46221 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665235142B6BF2FA00A46221 /* ProfileViewController.swift */; };
+		665235172B6BFF9400A46221 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665235162B6BFF9400A46221 /* UIImageView.swift */; };
+		6652351B2B72865300A46221 /* CustomMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6652351A2B72865300A46221 /* CustomMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		660E27402B7416580073AF9C /* CustomMenu2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenu2ViewController.swift; sourceTree = "<group>"; };
+		662764AE2BBDDE3B009F2978 /* Shrikhand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shrikhand-Regular.ttf"; sourceTree = "<group>"; };
+		662764B22BBE2A6B009F2978 /* CustomMenu3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenu3ViewController.swift; sourceTree = "<group>"; };
+		662764B42BBE3DF0009F2978 /* Meal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataClass.swift"; sourceTree = "<group>"; };
+		662764B52BBE3DF0009F2978 /* Meal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		665234F62B6BE62E00A46221 /* MyMealPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMealPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		665234F92B6BE62E00A46221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		665234FB2B6BE62E00A46221 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +39,9 @@
 		665235052B6BE62F00A46221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		665235082B6BE62F00A46221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6652350A2B6BE62F00A46221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		665235142B6BF2FA00A46221 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		665235162B6BFF9400A46221 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		6652351A2B72865300A46221 /* CustomMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +55,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		662764B12BBDFA1F009F2978 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				662764AE2BBDDE3B009F2978 /* Shrikhand-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		665234ED2B6BE62E00A46221 = {
 			isa = PBXGroup;
 			children = (
+				667175B42BBEFD5D000EDCD2 /* Core Data Files */,
 				665234F82B6BE62E00A46221 /* MyMealPlanner */,
 				665234F72B6BE62E00A46221 /* Products */,
 			);
@@ -58,16 +83,47 @@
 		665234F82B6BE62E00A46221 /* MyMealPlanner */ = {
 			isa = PBXGroup;
 			children = (
-				665234F92B6BE62E00A46221 /* AppDelegate.swift */,
-				665234FB2B6BE62E00A46221 /* SceneDelegate.swift */,
-				665234FD2B6BE62E00A46221 /* ViewController.swift */,
+				667175B32BBEFD0B000EDCD2 /* Delegate */,
+				662764B12BBDFA1F009F2978 /* Font */,
+				667175B22BBEFCB0000EDCD2 /* View Controllers */,
 				665234FF2B6BE62E00A46221 /* Main.storyboard */,
+				665235162B6BFF9400A46221 /* UIImageView.swift */,
 				665235052B6BE62F00A46221 /* Assets.xcassets */,
 				665235072B6BE62F00A46221 /* LaunchScreen.storyboard */,
 				6652350A2B6BE62F00A46221 /* Info.plist */,
 				665235022B6BE62E00A46221 /* MyMealPlanner.xcdatamodeld */,
 			);
 			path = MyMealPlanner;
+			sourceTree = "<group>";
+		};
+		667175B22BBEFCB0000EDCD2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				665234FD2B6BE62E00A46221 /* ViewController.swift */,
+				662764B22BBE2A6B009F2978 /* CustomMenu3ViewController.swift */,
+				6652351A2B72865300A46221 /* CustomMenuViewController.swift */,
+				660E27402B7416580073AF9C /* CustomMenu2ViewController.swift */,
+				665235142B6BF2FA00A46221 /* ProfileViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		667175B32BBEFD0B000EDCD2 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				665234F92B6BE62E00A46221 /* AppDelegate.swift */,
+				665234FB2B6BE62E00A46221 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		667175B42BBEFD5D000EDCD2 /* Core Data Files */ = {
+			isa = PBXGroup;
+			children = (
+				662764B42BBE3DF0009F2978 /* Meal+CoreDataClass.swift */,
+				662764B52BBE3DF0009F2978 /* Meal+CoreDataProperties.swift */,
+			);
+			path = "Core Data Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662764AF2BBDDE3B009F2978 /* Shrikhand-Regular.ttf in Resources */,
 				665235092B6BE62F00A46221 /* LaunchScreen.storyboard in Resources */,
 				665235062B6BE62F00A46221 /* Assets.xcassets in Resources */,
 				665235012B6BE62E00A46221 /* Main.storyboard in Resources */,
@@ -143,7 +200,14 @@
 			files = (
 				665234FE2B6BE62E00A46221 /* ViewController.swift in Sources */,
 				665234FA2B6BE62E00A46221 /* AppDelegate.swift in Sources */,
+				665235152B6BF2FA00A46221 /* ProfileViewController.swift in Sources */,
+				660E27412B7416580073AF9C /* CustomMenu2ViewController.swift in Sources */,
+				662764B62BBE3DF1009F2978 /* Meal+CoreDataClass.swift in Sources */,
 				665234FC2B6BE62E00A46221 /* SceneDelegate.swift in Sources */,
+				662764B32BBE2A6B009F2978 /* CustomMenu3ViewController.swift in Sources */,
+				662764B72BBE3DF1009F2978 /* Meal+CoreDataProperties.swift in Sources */,
+				665235172B6BFF9400A46221 /* UIImageView.swift in Sources */,
+				6652351B2B72865300A46221 /* CustomMenuViewController.swift in Sources */,
 				665235042B6BE62E00A46221 /* MyMealPlanner.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,8 +355,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LL9N93FWU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyMealPlanner/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to your photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,8 +384,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LL9N93FWU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MyMealPlanner/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to your photos";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
